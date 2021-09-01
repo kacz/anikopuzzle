@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: grey;
+    color: black;
+    align: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.8em;
+}
+
+#message {
+    color: black;
+    min-height: 300px;
+    padding-bottom: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+#main {
+    color: black;
+    font-family: 'Courier New', monospace;
+    min-height: 300px;
+}
+
+#passwordMessage {
+    color: red;
+    font-size: 0.5em;
+    visibility: hidden;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  text-align: center;
+}

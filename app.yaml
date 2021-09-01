@@ -1,0 +1,6 @@
+runtime: custom
+env: flex
+readiness_check:
+  check_interval_sec: 300
+  success_threshold: 1
+  app_start_timeout_sec: 600
