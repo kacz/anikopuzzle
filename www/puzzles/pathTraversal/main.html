@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/common.js"></script>
+    <script>
+	$(document).ready(registerPasswordSubmit);
+
+	var fetchTask = () => {
+	    console.log('click');
+        $.ajax({
+            url: '/getFile?fileName=puzzles/pathTraversal/puzzle_definition.txt',
+            success: function(data) {
+                console.log('success');
+                $('#main').html(data);
+            }
+        });
+    };
+    </script>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body>
+<div id="message">
+    No password is safe from you!<br>
+    This time we won't even load the puzzle contents for you!<br>
+    Do it yourself if you think you can access everything!
+</div>
+<hr>
+
+<button id="fetch" onclick="fetchTask()">Fetch puzzle definition</button>
+<div id="main">
+</div>
+<hr>
+
+<div id="pass">
+    <p>Password:</p>
+    <input type="password" id="password"/><br>
+    <div id="passwordMessage" >Fail</div>
+    <button id="submit">submit</button><br>
+</div>
+</body>
+</html>

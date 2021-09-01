@@ -48,6 +48,7 @@ registerPuzzle('base64/', 'ServiceForever');
 
 // TODO: register your puzzles here
 
+registerPuzzle('pathTraversal/', 'atanu');
 registerPuzzle('finale/', 'congrats'); // final congrats page with the archive password
 
 
