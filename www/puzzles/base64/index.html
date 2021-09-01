@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/common.js"></script>
+    <script>
+	$(document).ready(registerPasswordSubmit);
+    </script>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <style>
+    #mainContent {
+        margin: 0px;
+        height: 900px;
+        width: 80%;
+        font-size: 1em;
+        background: gray;
+        border: none;
+    }
+    </style>
+</head>
+
+<body>
+<div id="message">
+    Nice job!<br>
+    But be aware: you should never, ever, EVER commit plaintext passwords to your codebase.<br>
+    For storing paintext passwords, encryption keys or anything of a sensitive nature the penality is FINE, IMPRISONMENT, or BOTH!<br>
+</div>
+<hr>
+<div id="main">
+    <textarea id=mainContent cols="50" readonly>
+    ewogICJ0eXBlIjogIlRpbWVTZXJpZXNSZXF1ZXN0IiwKICAidXNlcm5hbWUiOiAiU2VydmljZVNhbSIsCiAgInBhc3N3b3JkIjogIlNlcnZpY2VGb3JldmVyIiwKICAic2VyaWVzIjogWwogICAgewogICAgICAibmFtZSI6ICJjb3JwIiwKICAgICAgImV4cHJlc3Npb24iOiAiQStCIiwKICAgICAgImZyb20iOiAieWVzdGVyZGF5IiwKICAgICAgInRvIjogImZvcmV2ZXIiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJtdW5pIiwKICAgICAgImV4cHJlc3Npb24iOiAiLWFicygwKSIsCiAgICAgICJmcm9tIjogIkJDIiwKICAgICAgInRvIjogIkFEIgogICAgfQogIF0KfQ==
+    </textarea>
+</div>
+<hr>
+
+<div id="pass">
+    <p>Password:</p>
+    <input type="password" id="password"/><br>
+    <div id="passwordMessage" >Fail</div>
+    <button id="submit">submit</button><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+Each programmer should instantly spot that the main content of the page is a base64 encoded text.
+Once decoded, password can be easily identified.
+
+Decoded payload:
+{
+  "type": "TimeSeriesRequest",
+  "username": "ServiceSam",
+  "password": "ServiceForever",
+  "series": [
+    {
+      "name": "corp",
+      "expression": "A+B",
+      "from": "yesterday",
+      "to": "forever"
+    },
+    {
+      "name": "muni",
+      "expression": "-abs(0)",
+      "from": "BC",
+      "to": "AD"
+    }
+  ]
+}
