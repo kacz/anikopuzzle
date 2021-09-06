@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/assets/common.js"></script>
+    <script src="./puzzle.js"></script>
+    <script>
+	$(document).ready(registerPasswordSubmit);
+	$(document).ready(registerTrainingsFetcher);
+	$( function() {
+    $( "#trainings" ).accordion({
+      collapsible: true,
+      header: "h3"
+    });
+  } );
+    </script>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+
+<body>
+<div id="message">
+    You learn fast! <br>
+    Still, there's plenty to learn! <br>
+    In order to get to the next level, finish all your mandatory trainings!
+</div>
+<hr>
+
+<div id="trainings">
+</div>
+<div>
+    The password is: <span id="result"><i>unavailable - first you need to finish your trainings!</i></span>
+</div>
+<hr>
+
+<div id="pass">
+    <p>Password:</p>
+    <input type="password" id="password"/><br>
+    <div id="passwordMessage" >Fail</div>
+    <button id="submit">submit</button><br>
+</div>
+</body>
+</html>

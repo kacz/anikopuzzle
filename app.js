@@ -39,12 +39,16 @@ var registerPuzzle = (folder, solution) => {
     console.log('registring folder ' + folder + ' to url ' + lastSolution + ' with password ' + solution);
     app.use(lastSolution, express.static(__dirname + '/www/puzzles/' + folder));
     app.use(lastSolution, serveIndex(__dirname + '/www/puzzles/' + folder))
+    if (fs.existsSync(__dirname + '/www/puzzles/' + folder + "app.js")) {
+        require(__dirname + '/www/puzzles/' + folder + "app.js")(app);
+    }
     solutions.push(solution);
 }
 
 // puzzle registration
 registerPuzzle('hardcoded/', 'password123');
 registerPuzzle('base64/', 'ServiceForever');
+registerPuzzle('hiddenInput/', 'respect');
 
 // TODO: register your puzzles here
 

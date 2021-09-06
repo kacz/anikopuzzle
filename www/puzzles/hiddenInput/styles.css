@@ -1,0 +1,15 @@
+.trainingContents > label {
+    font-size: .6em;
+}
+
+h3.trainingTitle.finished {
+    background: #64ec00;
+}
+
+.training button {
+    border: 2px solid #4CAF50;
+}
+.training button:disabled {
+    border: 2px solid red;
+    background: #A9A9A9;
+}

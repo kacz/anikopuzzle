@@ -1,0 +1,9 @@
+Mandatory trainings are the best pastime activities!
+We cannot get enough of them!
+This puzzle tries to satisfy the needs of the most hardcore employees.
+To get the solusion one need to pass countless trainings - literally "countless".
+
+OR...
+
+Just send the request to the backend, that would be sent after finishing the last training: with parameter "trainingsLeft=0".
+This can be done manually by hitting the right url, or by removing trainings from the puzzle page. Other option would be to re-write the hidden inputs in the trainings to prevent generating new ones.
