@@ -49,6 +49,7 @@ var registerPuzzle = (folder, solution) => {
 registerPuzzle('hardcoded/', 'password123');
 registerPuzzle('base64/', 'ServiceForever');
 registerPuzzle('hiddenInput/', 'respect');
+registerPuzzle('documents/', 'iteration101');
 
 // TODO: register your puzzles here
 
