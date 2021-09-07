@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/common.js"></script>
+    <script>
+	$(document).ready(registerPasswordSubmit);
+    </script>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body>
+<div id="message">
+    Welcome dear user of our amazing document management system. We do not recommend storing any passwords or secrets in your documents as permission checks are still not implemented yet. We were notified that some users store their passwords despite our warning...
+</div>
+<hr>
+
+<div id="main">
+    <h2>My Documents</h2>
+    <div>
+        <a href="/getDocument?id=1" target="_blank">Work.txt</a>
+        <a href="/getDocument?id=4" target="_blank">Notes.txt</a>
+        <a href="/getDocument?id=7" target="_blank">Programming.txt</a>
+    </div>
+    <div style="font-size: 12px; margin-top: 20px">
+        There are 9 documents for 3 users in the system.
+    </div>
+</div>
+<hr>
+
+<div id="pass">
+    <p>Password:</p>
+    <input type="password" id="password"/><br>
+    <div id="passwordMessage" >Fail</div>
+    <button id="submit">submit</button><br>
+</div>
+</body>
+</html>
