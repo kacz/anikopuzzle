@@ -36,7 +36,7 @@ var lastSolution = '';
 var solutions = [''];
 var registerPuzzle = (folder, solution) => {
     var lastSolution = '/' + solutions[solutions.length - 1];
-    console.log('registring folder ' + folder + ' to url ' + lastSolution + ' with password ' + solution);
+    console.log('registering folder ' + folder + ' to url ' + lastSolution + ' with password ' + solution);
     app.use(lastSolution, express.static(__dirname + '/www/puzzles/' + folder));
     app.use(lastSolution, serveIndex(__dirname + '/www/puzzles/' + folder))
     if (fs.existsSync(__dirname + '/www/puzzles/' + folder + "app.js")) {
