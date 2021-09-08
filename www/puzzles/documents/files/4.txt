@@ -1,0 +1,5 @@
+Don't Live with Broken Windows
+
+Fix bad designs, wrong decisions, and poor code when you see them.
+
+~ Pragmatic Programmer
