@@ -1,0 +1,4 @@
+I know nothing about hacking so I've created a math puzzle.
+It is a congruent equation. I don't remember either how to solve these, luckily there are online calculators which can help us :)
+The equation actually has infinite number of solutions. However sliders constrain each variable to be in 0-99 range. With these constrains there is only handful of solutions to try.
+Background animations should also help solve this puzzle.
