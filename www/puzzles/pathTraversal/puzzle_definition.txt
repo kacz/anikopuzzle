@@ -1,5 +1,5 @@
 Password for this stage is not part of web service! <br>
 MUHAHAHA! <br>
-It's known only by the user with UID 203 on this machine. <br>
+It's known only by the user with UID 200 on this machine. <br>
 (But rumors say that in most cases he's using his own username as password) <br>
 You have no chance to find out his name!
