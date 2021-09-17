@@ -2,4 +2,4 @@
 
 main.html on the other hand is able to load the task definition from the txt file.
 
-Using the same method one can easily break out of the web server root and open arbirary file on the server - even the one containing UIDs.
+Using the same method one can easily break out of the web server root and open arbitrary file on the server - even the one containing UIDs.

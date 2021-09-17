@@ -53,7 +53,7 @@ registerPuzzle('documents/', 'iteration101');
 registerPuzzle('sliders/', '11881');
 // TODO: register your puzzles here
 
-registerPuzzle('pathTraversal/', 'atanu');
+registerPuzzle('pathTraversal/', 'krisztian');
 registerPuzzle('finale/', 'congrats'); // final congrats page with the archive password
 
 
