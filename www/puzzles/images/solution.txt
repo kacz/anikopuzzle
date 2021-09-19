@@ -1,0 +1,9 @@
+There are 4 hexadecimal representations of four image files.
+Every image file has an another format and formats are easily distinguishable by their magic numbers.
+In order to get a number which is depicted in each file you have to transform the hexadecimal representation to the appropriate file format.
+
+The file formats are:
+jpg
+png
+bmp
+ascii - Ascii doesn't have its own magic number (because it isn't a file format). However, it's noticeable that the hexadecimal numbers are in range of ASCII chars.
